@@ -1,0 +1,59 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(103,32,167,1) 47%, rgba(148,187,233,1) 88%); 
+}
+.PersonName{
+    display: flex;
+    top:50px;
+    right:50px;
+    width:300px;
+    text-align: center;
+    border:1px solid black;
+}
+.MainDiv{
+    position: relative;
+    top:10px;
+    left:10px;
+    width:400px;
+    display: flex;
+    margin:5px;
+    color:black;
+    border-radius: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(208,184,24,1) 47%, rgba(148,187,233,1) 88%); 
+}
+.MainDiv .DataDiv{
+    text-align: center;
+}
+.MainDiv .ImgDiv img{
+    border-radius: 50%;
+    margin-top: 26px;
+    padding: 10px;
+}
+.MainDiv .ImgDiv {
+    
+    width:40%;
+}
+.PersonName{
+    width:400px;
+    display: flex;
+    border:none;
+    
+}
+.PersonName button{
+    padding: 10px;
+    color:red;
+    width:100%;
+    border:none;
+    margin-top:2px;
+    
+}
+.div1{
+    float:left;
+}
+.div2{
+    float:right;
+}
+.clr{
+    clear: both;
+}
